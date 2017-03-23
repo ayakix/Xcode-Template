@@ -8,7 +8,7 @@ Xcode-Template
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
 )](http://mit-license.org)
 
-## Overview
+# Overview
 This is a way to customize the default template when creating a new file with Xcode such as UIViewController.
 
 # How to use
@@ -34,7 +34,7 @@ Create a class as a subclass of Cocoa Tocuh class. (ex. UIViewController)
 ![custom_view_controller](images/custom_view_controller.png)
 
 # Customize templates
-Modify `xcodeTemplate/Cocoa Touch Class.xctemplate/UIViewControllerSwift/___FILEBASENAME___.swift`
+Modify `xcodeTemplate/Cocoa Touch Class.xctemplate/UIViewControllerSwift/___FILEBASENAME___.swift`.
 After modification, you need to re-run the shell script.
 
 To add other template classes, copy the directory of the class name you want to modify in `Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File Templates/Source/Cocoa Touch Class.xctemplate` to `xcodeTemplate/Cocoa Touch Class.xctemplate` and modify it.
